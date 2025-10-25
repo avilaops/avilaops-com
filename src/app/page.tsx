@@ -29,10 +29,10 @@ export default function Home() {
   ];
 
   const results = [
-    { metric: "99.9%", label: "Uptime Garantido", icon: "📈" },
-    { metric: "70%", label: "Faster Deploys", icon: "🚀" },
-    { metric: "40%", label: "Cost Reduction", icon: "💰" },
-    { metric: "24/7", label: "Monitoring", icon: "👁️" }
+    { metric: "99.9%", label: "Uptime SLA", icon: "📈" },
+    { metric: "60%", label: "Deploy Speed", icon: "🚀" },
+    { metric: "50%", label: "Cost Reduction", icon: "💰" },
+    { metric: "24/7", label: "Support", icon: "👁️" }
   ];
 
   const techStack = [
@@ -42,22 +42,22 @@ export default function Home() {
 
   const cases = [
     {
-      company: "FinTech Startup",
-      challenge: "Migração legacy para cloud",
-      solution: "Kubernetes + AWS EKS",
-      result: "Deploy time reduzido de 2h para 15min"
+      company: "Cliente Enterprise",
+      challenge: "Migração para cloud Azure",
+      solution: "Kubernetes + Azure AKS + Terraform",
+      result: "Deploy automatizado em 10min vs 2h manual"
     },
     {
-      company: "E-commerce Scale",
-      challenge: "Black Friday readiness",
-      solution: "Auto-scaling + CDN global",
-      result: "Suportou 10x tráfego sem downtime"
+      company: "Startup SaaS",
+      challenge: "Escalabilidade automática",
+      solution: "Auto-scaling + CI/CD + Monitoring",
+      result: "Suportou crescimento de 1000% sem downtime"
     },
     {
-      company: "Healthcare Corp",
-      challenge: "Compliance LGPD/HIPAA",
-      solution: "Zero Trust Architecture",
-      result: "100% compliance + security audit"
+      company: "E-commerce",
+      challenge: "Performance Black Friday",
+      solution: "Load Balancing + CDN + Cache Redis",
+      result: "Zero downtime em pico de 50x tráfego"
     }
   ];
 
@@ -204,7 +204,7 @@ export default function Home() {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-xl md:text-2xl text-light/80 mb-12 max-w-4xl mx-auto leading-relaxed"
             >
-              Especialistas em DevOps, Cloud e automação para infraestrutura de classe mundial
+              DevOps Engineering, Cloud Architecture e Automação para empresas que precisam escalar
             </motion.p>
 
             <motion.div 
